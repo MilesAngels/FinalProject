@@ -1,4 +1,4 @@
-<html lang = "en">
+<html lang = "en" class="contact-wrapper">
     <head>
         <meta charset = "UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,7 +11,7 @@
 
     </head>
 
-    <body class="wrapper">
+    <body class="contact-wrapper">
         <header>
             <a href="index.html"><img class="logo" src="./IMG/logo-cons.png" alt="logo"></a>
             <h2>Deep Ocean Conservatory</h2>
@@ -27,9 +27,36 @@
 
         </header>
 
-        <main>
-            
+        <main class="contact-main">
 
+            <div class="address">
+                <h3 class="address contact-h3">Contact Us</h3>
+                <address class="address">
+                    Some Weird Place, ZZ<br>
+                    USA
+
+                </address>
+            </div>
+
+            <div class="contact-form">
+            <h3 class="contact-h3">Online Contact Form</h3>
+            <form>
+                
+
+                <label for="subject">Subject</label>
+                    <input type="text" name="subject" id="subject" placeholder="Write your question here."><br><br>
+                <label>Name</label>
+                    <input type="text"><br><br>
+                <label>Email</label>
+                    <input type="email"><br><br>
+                <label>Phone</label>
+                    <input type="tel"><br><br>
+                <label>Message</label>
+                    <textarea></textarea>
+
+                <input type="submit" class="submit">
+            </form>
+        </div>
         </main>
 
         <footer class="footer">
