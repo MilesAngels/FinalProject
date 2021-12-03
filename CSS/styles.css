@@ -33,6 +33,7 @@ header {
     background-color: #133057;
     align-items: center;
     padding: 10px 5%;
+    overflow: hidden;
 }
 
 h2 {
@@ -204,4 +205,11 @@ input[type="text"], input[type="email"], input[type="tel"], textarea{
     background-color: rgba(23, 137, 165, 0.7);
     color: #DCD9EA;
 
+}
+
+/* Tickets */
+
+.tickets-div {
+    overflow: hidden;
+    background-color: #ccc;
 }
