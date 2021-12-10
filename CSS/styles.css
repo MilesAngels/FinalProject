@@ -13,10 +13,12 @@
     background-color: #DCD9EA;
 }
 
-h2, ul, button {
+nav, h2, ul, button {
     background-color: #133057;
 }
-
+li{
+    list-style-type: none;
+}
 img, h2, li, a, button {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
@@ -209,7 +211,3 @@ input[type="text"], input[type="email"], input[type="tel"], textarea{
 
 /* Tickets */
 
-.tickets-div {
-    overflow: hidden;
-    background-color: #ccc;
-}
