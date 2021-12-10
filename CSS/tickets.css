@@ -1,0 +1,19 @@
+.tickets-div {
+    margin: 0 auto;
+    background-color: #DCD9EA;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    
+}
+
+.tickets-div li {
+    background-color: #DCD9EA;
+    color: black;
+    padding: 100px;
+    font-family: 'Crimson Text', serif;
+    font-size: 25px;
+    font-weight: 800;
+    
+}
