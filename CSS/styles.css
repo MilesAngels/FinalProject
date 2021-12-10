@@ -67,7 +67,7 @@ h2 {
     color: rgb(223, 148, 161);
 }
 
-button {
+.contact {
     padding: 9px 25px;
     background-color: rgb(79, 183, 209);
     color: #3e3a53;
@@ -77,7 +77,7 @@ button {
     transition: all 0.3s ease 0s;
 }
 
-button:hover {
+.contact button:hover {
     background-color: rgba(23, 137, 165, 0.7);
     color: #DCD9EA;
 
@@ -117,19 +117,6 @@ button:hover {
 
 /***************************** Home Page *******************************/
 
-.slide1{
-    background: url("../IMG/slides/lionfish.png") no-repeat;
-    
-}
-
-.slide2{
-    background: url("../IMG/slides/jellyfish.png") no-repeat;
-}
-
-.slide3{
-    background: url("../IMG/slides/sea_turtle.png") no-repeat;
-}
-
 .slides li div {
 	max-width: 100%;
 	position: relative;
@@ -142,6 +129,10 @@ button:hover {
     left: 20px;
     bottom: 10%;
     padding: 10px;
+}
+
+button{
+    background-color: rgba(184, 181, 195, 0.5);
 }
 /***************************** Contact Page *******************************/
 .contact-wrapper, .contact-main{
