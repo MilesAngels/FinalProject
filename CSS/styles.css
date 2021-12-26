@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&display=swap');
 
-* {
+*, html {
     margin:0;
     padding:0;
     box-sizing: border-box;
@@ -91,30 +91,6 @@ h2 {
 
 }
 
-
-.section-2{
-    margin: 0px auto;
-    padding: 20px;
-    text-align: center;
-    
-}
-
-.carousel-indicators{
-    background-color: rgba(184, 181, 195, 0.0);
-    
-}
-
-.carousel-indicators .indicator {
-
-        width: 10px;
-        height: 10px;
-        border-radius: 100%;
-    
-}
-
-.carousel-control-next-icon, .carousel-control-prev-icon {
-    background-color: rgb(220, 217, 234, 0);
-}
 .inline li {
     display: inline-flex;
     /*background-color: #3e3a53;*/
@@ -127,6 +103,7 @@ h2 {
 }
 .card {
     border: 1px solid #ccc;
+    border-radius: 10px;
     background-color:#FFF;
     width: 300px;
     color: #1f1c2e;
@@ -170,6 +147,77 @@ h2 {
 button{
     background-color: rgba(184, 181, 195, 0.5);
 }
+
+.section-1{
+    margin: 5px;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.carousel-indicators{
+    background-color: rgba(184, 181, 195, 0.0);
+    
+}
+
+.carousel-indicators .indicator {
+
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+    
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    background-color: rgb(220, 217, 234, 0);
+}
+
+hr {
+    background-color: #1f4575;
+    opacity: 1;
+    margin: 0;
+}
+
+hr:not([size]){
+    height: 5px;
+}
+
+h3 {
+    font-family: 'crimson';
+    font-weight: bolder;
+    background-color: #133057;
+    color: #e5e3ec;
+    text-align: center;
+    padding: 30px 0 30px 0;
+    
+}
+
+.section-1 li {
+    font-size: 16px;
+}
+
+.cropped-img {
+    height: 258px;
+    width: 258px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.par-text {
+    background-color: #ffffff;
+    padding-top: 15px;
+    font-size: 12px;
+    text-align: justify;
+}
+
+.btn-primary {
+    background-color: #4FB7D1;
+    border: none;
+    border-radius: 40px;
+    width: fit-content;
+    padding: 5px;
+
+    }
 /***************************** Contact Page *******************************/
 .contact-wrapper, .contact-main{
     background-color: #f2f2f2;
@@ -243,6 +291,10 @@ input[type="text"], input[type="email"], input[type="tel"], textarea{
 
 .crimson{
     font-family: 'Crimson Pro', serif;
+}
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
 }
 
 .comp-name {
