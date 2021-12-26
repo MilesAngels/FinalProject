@@ -44,23 +44,31 @@ h2 {
 }
 
 .logo {
+    
     width: 100%;
     
 }
 
 .nav_links {
     list-style: none;
+    margin: 10px;
 }
 
 .nav_links li {
     display: inline-block;
-    
     padding: 0px 20px;
+    
+    
 }
 
 .nav_links li a {
     transition: all 0.3s ease 0s;
     
+}
+
+.larger-text{
+    font-size: 20px;
+    font-stretch: extra-expanded;
 }
 
 .nav_links li a:hover {
@@ -84,22 +92,50 @@ h2 {
 }
 
 
-.section-2 {
-    margin: 20px;
-}
-
-.section-2 div {
-    float: left;
-    padding: 40px;
-    margin: 15px;
-    border: 1px solid #3e3a53;
-    border-radius: 10px;
-    box-shadow: 5px 5px rgba(184, 181, 195, 0.5);
+.section-2{
+    margin: 0px auto;
+    padding: 20px;
+    text-align: center;
     
 }
 
-.section-2 > div:first-of-type{
-    margin-left: 50px;
+.carousel-indicators{
+    background-color: rgba(184, 181, 195, 0.0);
+    
+}
+
+.carousel-indicators .indicator {
+
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+    
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    background-color: rgb(220, 217, 234, 0);
+}
+.inline li {
+    display: inline-flex;
+    /*background-color: #3e3a53;*/
+}
+
+.center-text {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.card {
+    border: 1px solid #ccc;
+    background-color:#FFF;
+    width: 300px;
+    color: #1f1c2e;
+    margin: 20px;
+    padding: 20px;
+}
+
+.background-color1 {
+    background-color: #DCD9EA;
 }
 
 .footer {
@@ -202,3 +238,43 @@ input[type="text"], input[type="email"], input[type="tel"], textarea{
 
 /* Tickets */
 
+
+/* Typography */
+
+.crimson{
+    font-family: 'Crimson Pro', serif;
+}
+
+.comp-name {
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+/* Media Queries */
+
+header li {
+    display: none;
+}
+
+
+
+@media (min-width: 576px) { 
+    header li {
+        display: none;
+        
+    }
+ }
+
+@media (min-width: 768px) { 
+    header li {
+        display: inline-block;
+    }
+}
+
+@media (min-width: 992px) {  }
+
+@media (min-width: 1200px) {  }
+
+@media (min-width: 1400px) { 
+
+ }

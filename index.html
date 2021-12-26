@@ -15,8 +15,9 @@
 
     <body class="wrapper">
         <header>
-            <a href="index.html"><img class="logo" src="./IMG/deep-ocean-logo.png" alt="logo"></a>
+            <a href="index.html" class="crimson larger-text"><img class="logo" src="./IMG/logo-icon.png" alt="logo"></a>
             <!--<h2>Deep Ocean Aquarium</h2>-->
+            <li class="crimson comp-name">Deep Ocean Aquarium</li>
             <nav>
                 <ul class="nav_links">
                     <li><a href="index.html">Home</a></li>
@@ -30,7 +31,13 @@
         </header>
 
         <main>
+            <!-- Carousel for Ocean Creatures -->
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active indicator" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" class="indicator" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" class="indicator" aria-label="Slide 3"></button>
+                  </div>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     <img src="./IMG/slides/sea_turtle.png" class="d-block w-100" alt="sea turtle">
@@ -52,10 +59,23 @@
                 </button>
               </div>
             
-
+            <hr>
             <section class="section-2">
                 <h3>Upcoming Events</h3>
-                <div>
+                <div class="inline">
+                    <ul class="background-color1">
+                        <li class="card center-text crimson">Sea Turtle Hatching Event
+                            <img src="./IMG/slides/baby_seaTurtle.jpg">
+                        </li>
+                        <li class="card center-text crimson">Deep Sea Creatures Exhibit
+                            <img src="./IMG/slides/deep_sea.jpg">
+                        </li>
+                        <li class="card center-text crimson">Beluga Whales Release
+                            <img src="./IMG/slides/beluga_whale.jpg">
+                        </li>
+                    </ul>
+                </div>
+                <!--<div>
                     <h4>Sea Turtle Hatching Event</h4>
                     <p></p>
                 </div>
@@ -64,7 +84,7 @@
                 </div>
                 <div>
                     <h4>Beluga Whales Release</h4>
-                </div>
+                </div>-->
             </section>
 
         </main>
