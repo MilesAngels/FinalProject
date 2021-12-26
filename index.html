@@ -11,10 +11,19 @@
         
         <link rel="stylesheet" href="./CSS/styles.css">
 
+        <style>
+            /* Ommit the carousel when the screen is at 768px*/
+            @media screen and (max-width: 768px) {
+                .carousel {
+                    display: none;
+                }
+            }
+        </style>
     </head>
 
     <body class="wrapper">
         <header>
+            
             <a href="index.html" class="crimson larger-text"><img class="logo" src="./IMG/logo-icon.png" alt="logo"></a>
             <!--<h2>Deep Ocean Aquarium</h2>-->
             <li class="crimson comp-name">Deep Ocean Aquarium</li>
@@ -59,32 +68,34 @@
                 </button>
               </div>
             
-            <hr>
-            <section class="section-2">
-                <h3>Upcoming Events</h3>
+            <hr><!-- Simple break from the carousel -->
+            <h3>Upcoming Events</h3>
+            <section class="section-1">
+                
                 <div class="inline">
                     <ul class="background-color1">
-                        <li class="card center-text crimson">Sea Turtle Hatching Event
-                            <img src="./IMG/slides/baby_seaTurtle.jpg">
+                        <!-- Cards for events with images and descriptions -->
+                        <li class="card center-text crimson">
+                            <img src="./IMG/slides/baby_seaTurtle.jpg" class="cropped-img">
+                            Sea Turtle Hatching Event
+                            <p class="montserrat par-text">Come join us as we welcome new sea turtles! Event starts from June through September.</p>
+                            <button type="button" class="btn btn-primary">Events</button>
                         </li>
-                        <li class="card center-text crimson">Deep Sea Creatures Exhibit
-                            <img src="./IMG/slides/deep_sea.jpg">
+                        <li class="card center-text crimson">
+                            <img src="./IMG/slides/deep_sea.jpg" class="cropped-img">
+                            Deep Sea Creatures Exhibit
+                            <p class="montserrat par-text">Come join us as we welcome new sea turtles! Event starts from June through September.</p>
+                            <button type="button" class="btn btn-primary">Events</button>
                         </li>
-                        <li class="card center-text crimson">Beluga Whales Release
-                            <img src="./IMG/slides/beluga_whale.jpg">
+                        <li class="card center-text crimson">
+                            <img src="./IMG/slides/beluga_whale.jpg" class="cropped-img">
+                            Beluga Whales Release
+                            <p class="montserrat par-text">Come join us as we welcome new sea turtles! Event starts from June through September.</p>
+                            <button type="button" class="btn btn-primary">Events</button>
                         </li>
                     </ul>
                 </div>
-                <!--<div>
-                    <h4>Sea Turtle Hatching Event</h4>
-                    <p></p>
-                </div>
-                <div>
-                    <h4>Deep Sea Creatures Exhibit</h4>
-                </div>
-                <div>
-                    <h4>Beluga Whales Release</h4>
-                </div>-->
+                
             </section>
 
         </main>
@@ -102,11 +113,6 @@
 
     <!-- Load Bootstap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
     
-
-   
-        
-        
     </body>
 </html>
