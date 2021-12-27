@@ -1,0 +1,23 @@
+[
+    {
+        "event" : "Sea Turlte Hatching",
+        "date" : "March 20, 2022",
+        "information" : "Sunny, our Leatherback sea turtle has laid eggs and her eggs will be hatched soon."
+    },
+    {
+        "event" : "Deep Sea Creatures Exhibit",
+        "date" : "March - September 2022",
+        "information" : "Explore our new exhibit with creatures of the deep and find out more about them."
+    },
+    {
+        "event" : "Beluga Whales Release",
+        "date" : "April 15, 2022",
+        "information" : "Carton and Nayla, who were brought in for net injuries have recovered and will finally be brought back to their pod."
+    },
+    {
+        "event" : "Clean Our Oceans",
+        "date" : "April 18, 2022",
+        "information" : "Join us in our mission to clean our seas and oceans."
+    }
+
+]
