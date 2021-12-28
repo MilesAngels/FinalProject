@@ -31,11 +31,20 @@
 
 
         <style>
-            /* Ommit the carousel when the screen is at 768px*/
+            /* Ommit the carousel when the screen is at 768px and format footer*/
             @media screen and (max-width: 768px) {
                 .carousel {
                     display: none;
                 }
+
+                .py-5{
+                    text-align: left;
+                }
+
+                .col-sm-5, .col-sm-3{
+                    padding-bottom: 10px;
+                }
+                
             }
         </style>
     </head>
@@ -122,7 +131,7 @@
         <div class="container background-color2 text-white">
         <footer class="py-5 background-color2">
             <div class="row background-color2">
-            <div class="col-3 background-color2 vl">
+            <div class="col-sm-3 background-color2 vl">
                 <ul class="nav flex-column">
 
                 <li class="nav-item mb-2"><a href="./about.html" class="nav-link p-0 text-muted font-size-15">About Us</a></li>
@@ -135,7 +144,7 @@
 
             
 
-            <div class="col-3 background-color2 crimson">
+            <div class="col-sm-3 background-color2 crimson">
                 <h5 class="background-color2">Main Entrance</h5>
                 <address class="background-color2 text-muted font-size-15 montserrat ">0000 Somewhere 
                     <br>Nowhere, NA 99999</address>
@@ -144,7 +153,7 @@
 
             </div>
 
-            <div class="col-5 offset-1 background-color2">
+            <div class="col-sm-5 background-color2">
                 <form class="background-color2">
                 <h5 class="background-color2 crimson font-size-22">Subscribe to our newsletter</h5>
                 <p class="background-color2 montserrat font-size-15 text-muted">Monthly digest of whats new and exciting from us.</p>
@@ -172,5 +181,6 @@
     <!-- Load Bootstap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     
+    </script>
     </body>
 </html>
