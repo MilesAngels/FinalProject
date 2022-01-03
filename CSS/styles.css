@@ -238,7 +238,13 @@ h3 {
     border-radius: 40px;
     width: fit-content;
     padding: 5px;
+    margin: 0 auto;
 
+}
+
+.btn-primary:hover {
+    background-color: rgba(23, 137, 165, 0.7);
+    color: #DCD9EA; 
 }
 
 .btn-height {
