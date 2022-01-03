@@ -76,21 +76,29 @@
 
                         
                         <!-- Ask for user's first name and last name -->
+                        
                         <label for="fname" class="col-sm-2 col-form-label">First Name*</label>
-                        <input type="text" id="fname" class="col-sm-4" placeholder="First Name">
+                        <div class="col-sm-4">
+                        <input type="text" id="fname" placeholder="First Name">
+                        </div>
                         
 
                         
                         <label for="lname" class="col-sm-2 col-form-label">Last Name*</label>
-                        <input type="text" id="lname" class="col-sm-4" placeholder="Last Name">
+                        <div class="col-sm-4">
+                        <input type="text" id="lname" placeholder="Last Name">
+                        </div>
                         
 
                         <!-- Ask for user's email address -->
-                        <label for="email">Email</label>
-                        <input type="email" id="email" placeholder="Email">
+                        <label for="email" class="col-sm-2 col-form-label">Email*</label>
+                        <div class="col-sm-10">
+                        <input type="email" id="email" class="form-control" placeholder="Email">
+                        </div>
 
                         <!-- User's inquiry -->
-                        <label for="inquiry">How can we help you today?</label>
+                        <label for="inquiry" class="col-sm-2 col-form-label">Question*</label>
+                        <div class="col-sm-10">
                         <select id="inquiry" name="inquiry">
                             <option value="Visit">Visit</option>
                             <option value="Ticket Discounts">Ticket Discounts</option>
@@ -98,10 +106,13 @@
                             <option value="Animals">Animals</option>
                             <option value="Other">Other</option>
                         </select>
+                        </div>
 
                         <!-- User's Message -->
-                        <label for="message">Message</label>
+                        <label for="message" class="col-sm-2">Message*</label>
+                        <div class="col-sm-10">
                         <textarea id="message" rows="5" cols="10" placeholder="Please enter message here..."></textarea>
+                        </div>
                     </div>
                 </form>
             </div>
