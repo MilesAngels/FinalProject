@@ -380,15 +380,13 @@ header li {
 
 @media (min-width: 576px) { 
     header li {
-        display: none;
-        
+        display: inline-block;
+        font-size: 10px;
     }
  }
 
 @media (min-width: 768px) { 
-    header li {
-        display: inline-block;
-    }
+    
 }
 
 @media (min-width: 992px) {  }
