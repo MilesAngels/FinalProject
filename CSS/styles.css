@@ -23,9 +23,12 @@ ul {
 nav, h2, ul, button {
     background-color: #133057;
 }
+
 li{
     list-style-type: none;
 }
+
+
 img, h2, li, a, button {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
@@ -45,6 +48,7 @@ header {
     overflow: hidden;
 }
 
+
 h2 {
     font-size: 30px;
     font-family: 'Crimson Text', serif;
@@ -56,15 +60,6 @@ h2 {
     
 }
 
-.hamburger {
-    display: none;
-}
-
-.nav-menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
 .nav_links {
     list-style: none;
@@ -381,32 +376,7 @@ header li {
         display: none;
     }
 
-    .nav-menu {
-        position: fixed;
-        left: -100%;
-        top: 5rem;
-        flex-direction: column;
-        background-color: #fff;
-        width: 100%;
-        border-radius: 10px;
-        text-align: center;
-        transition: 0.3s;
-        box-shadow:
-            0 10px 27px rgba(0, 0, 0, 0.05);
-    }
-
-        .nav-menu.active {
-            left: 0;
-        }
-
-        .nav-item {
-            margin: 2.5rem 0;
-        }
-
-        .hamburger {
-            display: block;
-            cursor: pointer;
-        }
+    
  }
 
 @media (min-width: 768px) { 
@@ -449,8 +419,10 @@ header li {
 @media (min-width: 1200px) {  }
 
 @media (min-width: 1400px) { 
-
+    
 
 
 
 }
+
+
