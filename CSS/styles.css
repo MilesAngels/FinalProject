@@ -236,6 +236,7 @@ h3 {
 .btn-primary {
     background-color: #4FB7D1;
     border: none;
+    text-align: right;
     border-radius: 40px;
     width: fit-content;
     padding: 5px;
@@ -243,12 +244,12 @@ h3 {
 }
 
 .btn-height {
-    margin-top: 10px;
     height: fit-content;
 }
 
 .form-control {
-    line-height: 0.9;
+    font-size: 15px;
+    padding: 5px !important;
 }
 
 /***************************** Contact Page *******************************/
@@ -333,7 +334,6 @@ option{
     font-weight: bold;
     border: none;
     border-radius: 50px;
-    margin: 0 auto;
     font-size: 18px;
 }
 
