@@ -249,6 +249,7 @@ h3 {
 
 }
 
+
 .btn-primary:hover {
     background-color: rgba(23, 137, 165, 0.7);
     color: #DCD9EA; 
@@ -401,6 +402,8 @@ header li {
 
     .contact {
         display: none;
+        font-size: 10px;
+
     }
 
     
