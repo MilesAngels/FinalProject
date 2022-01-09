@@ -44,27 +44,60 @@
                 .col-sm-5, .col-sm-3{
                     padding-bottom: 10px;
                 }
+
+                nav a {
+                    display:none;
+                }
+
+                .contact {
+                    display: none;
+                }
+
+
+                
+            }
+
+            @media (min-width: 1200px){
+                .navbar-expand-xl .navbar-nav .nav-link {
+                    padding-right: 3rem;
+                    padding-left: 0.5rem;
+                }
+
                 
             }
         </style>
     </head>
 
-    <body class="wrapper">
-        <header>
+    <body class="wrapper background-color2">
+        <header class="background-color2">
             
-            <a href="index.html" class="crimson larger-text"><img class="logo" src="./IMG/logo-icon.png" alt="logo"></a>
-            <!--<h2>Deep Ocean Aquarium</h2>-->
-            <li class="crimson comp-name">Deep Ocean Aquarium</li>
-            <nav>
-                <ul class="nav_links">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="tickets.html">Tickets</a></li>
-                </ul>
-            </nav>
-
-            <a href="contact.html"><button class="contact">Contact</button></a>
-
+            <nav class="navbar navbar-expand-xl">
+                <div class="container-fluid">
+                    <img src="IMG/logo-icon.png">
+                    <a class="navbar-brand comp-name crimson" href="index.html">Deep Ocean Aquarium</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link navigation active montserrat text-muted" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link navigation montserrat text-muted" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link navigation montserrat text-muted" href="tickets.html">Tickets</a>
+                            </li>
+                            <li class="">
+                                <a class="contact montserrat" href="contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>  
+                </div>
+                
+              </nav>
         </header>
 
         <main>
@@ -98,7 +131,7 @@
             
             <hr><!-- Simple break from the carousel -->
             <h3>Upcoming Events</h3>
-            <section class="section-1">
+            <section class="section-1 background-color1">
                 
                 <div class="inline">
                     <ul class="background-color1">
@@ -112,13 +145,13 @@
                         <li class="card center-text crimson">
                             <img src="./IMG/slides/deep_sea.jpg" class="cropped-img">
                             Deep Sea Creatures Exhibit
-                            <p class="montserrat par-text">Come join us as we welcome new sea turtles! Event starts from June through September.</p>
+                            <p class="montserrat par-text">Our newest exhibit will finally be unveiled. Experience the wonders of the deep sea from January through August.</p>
                             <button type="button" class="btn btn-primary">Events</button>
                         </li>
                         <li class="card center-text crimson">
                             <img src="./IMG/slides/beluga_whale.jpg" class="cropped-img">
                             Beluga Whales Release
-                            <p class="montserrat par-text">Come join us as we welcome new sea turtles! Event starts from June through September.</p>
+                            <p class="montserrat par-text">Our recently rescued beluga whale Charmy will finally be able to come home. Witness this event on January 22, 2022.</p>
                             <button type="button" class="btn btn-primary">Events</button>
                         </li>
                     </ul>
@@ -181,6 +214,9 @@
     <!-- Load Bootstap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     
+    </script>
+    <script>
+        
     </script>
     </body>
 </html>
