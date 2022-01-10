@@ -48,6 +48,7 @@ h2 {
 .wrapper {
     width: 100%;
     background-color: #DCD9EA;
+
 }
 
 .larger-text{
@@ -84,12 +85,12 @@ a:hover {
     /*background-color: #3e3a53;*/
 }
 
-
 .center-text {
     text-align: center;
     font-weight: bold;
     font-size: 20px;
 }
+
 .card {
     border: 1px solid #ccc;
     border-radius: 10px;
@@ -125,26 +126,36 @@ a:hover {
 }
 
 .vl {
-    
     border-right: 1px solid #a2a6aa;
 }
 
 address {
     margin-bottom: 0;
+
+
 }
 
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
+
 .navbar-toggler {
     color: #133057;
     border: none;
 }
 
-
 .bi {
     fill: #FFF;
+}
+
+.row {
+    margin: 0;
+}
+
+.py-5 {
+    padding-left: 10rem;
+    padding-right: 10rem;
 }
 /***************************** Home Page *******************************/
 
@@ -260,27 +271,43 @@ h3 {
     background-color: #f2f2f2;
 }
 
+.section-3 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+}
 
-.background-image{
+.section-3:after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
     background: url("../IMG/pexels-francesco-ungaro-4620507.jpg") no-repeat center;
-    z-index: -11;
-    padding: 5% 0 5% 0;
-    
+    background-size:cover;
+    z-index: -1;
+    filter: blur(5px);
 }
 
-.form-opacity{
-    opacity: 90%;
-}
 
 .background-color3 {
     background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
 }
+
+
 
 .contact-h3 {
     text-align: center;
     font-size: 20px;
     padding-bottom: 10px;
 }
+
 
 
 /****** form *****/
@@ -334,6 +361,7 @@ option{
     padding: 10px 20px 10px 20px;
     background-color: rgb(79, 183, 209);
     color: #3e3a53;
+    margin-left: 12px;
     font-weight: bold;
     border: none;
     border-radius: 50px;
@@ -347,6 +375,35 @@ option{
 }
 
 /* Tickets */
+.section-2 {
+    margin: 10px 0px;
+    padding: 0px 200px 20px 200px;
+    text-align: center;
+}
+
+.bullet-points li{
+    list-style-type: disc;
+    text-align: left;
+}
+
+.tickets-img {
+    height: 150px;
+    width: 150px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-color: #3e3a53;
+    color: #3e3a53;
+}
+
+.underline:hover{
+    text-decoration-color: rgba(23, 137, 165, 0.7);
+    
+}
+
 
 
 /* Typography */
@@ -387,6 +444,16 @@ nav a {
     display:inline-block;
 }
 
+.py-5{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: left;
+}
+
+.vl {
+    border-right: none;
+}
+
 .contact {
     display: block;
     border-radius: 0;
@@ -403,22 +470,17 @@ nav a {
         font-size: 22px;
     }
 
-    nav a {
-        display:inline-block;
+    .py-5{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        text-align: left;
     }
 
-    .contact {
-        display: block;
-        border-radius: 0;
-        background-color: #133057;
-        color: #a2a6aa;
+    .vl {
+        border-right: 1px solid #a2a6aa;
     }
 
-    .contact:hover{
-        background-color: #133057;
-    }
 
-    
  }
 
 @media (min-width: 768px) { 
@@ -446,6 +508,11 @@ nav a {
 
     .contact:hover{
         background-color: #133057;
+    }
+
+    .py-5{
+        padding-left: 3rem;
+        padding-right: 3rem;
     }
 }
 
@@ -477,6 +544,14 @@ nav a {
     .contact:hover{
         background-color: #133057;
     }
+
+    
+
+    .py-5{
+        padding-left: 5rem;
+        padding-right: 3rem;
+    }
+
 }
 
 @media (min-width: 1200px) { 
