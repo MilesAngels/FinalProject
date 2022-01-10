@@ -31,17 +31,40 @@
 
 
         <style>
-            /* Ommit the carousel when the screen is at 768px and format footer*/
+            .col-md-8 {
+                    margin-bottom: 30px;
+            }
+
+            @media (min-width: 576px){
+                .col-md-8 {
+                    margin-bottom: 30px;
+                }
+
+                
+            }
+
             @media screen and (max-width: 768px) {
                 
                 .py-5{
                     text-align: left;
+                    
                 }
 
                 .col-sm-5, .col-sm-3{
                     padding-bottom: 10px;
                 }
+
+                .contact-form {
+                    width: 95%;
+                }
                 
+            }
+
+            @media (min-width: 992px) {
+
+                .contact-form {
+                    width: 60%;
+                }
             }
 
             @media (min-width: 1200px){
@@ -89,9 +112,9 @@
 
         <main>
             <!-- Contact Form -->
-            <div class="section-3">
+            <div class="section-3 row">
                 
-                <form class="contact-form background-color3">
+                <form class="contact-form background-color3 col-md-8">
                     <h4 class="text-center text-dark crimson text-white fs-2">Contact Us</h4>
                     <div class="form-group row background-color3">
 
@@ -134,10 +157,22 @@
                     </div>
                 </form>
 
-                <div>
-
+                <div class="col-md-4 text-white">
+                    <div class="mb-5">
+                        <h2 class="background-color3 crimson bold"> Call Us</h2>
+                        <h6>For general questions call us at (000) 000 - 000</h6>
+                        <p>Monday through Friday (except for holidays)</p>
+                        <p>10 a.m. to 6 p.m.</p>
+                    </div>
+    
+                    <h2 class=" background-color3 crimson bold"> Visit Us</h2>
+                    <h6>Main Entrance</h6>
+                    <address>0000 Somewhere Nowhere, NA 99999</address>
+                    <p>(000) 000 - 000</p>
                 </div>
+
             </div>
+    
 
         </main>
 
@@ -168,11 +203,11 @@
 
             <div class="col-sm-5 background-color2">
                 <form class="background-color2">
-                <h5 class="background-color2 crimson font-size-22">Subscribe to our newsletter</h5>
+                <h5 class="background-color2 crimson font-size-22">Stay informed with Aquarium updates</h5>
                 <p class="background-color2 montserrat font-size-15 text-muted">Monthly digest of whats new and exciting from us.</p>
                 <div class="d-flex w-100 gap-2 background-color2">
                     <label for="newsletter1" class="visually-hidden">Email address</label>
-                    <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                    <input id="newsletter1" type="text" class="form-control" placeholder="Email">
                     <button class="btn btn-primary btn-height" type="button">Subscribe</button>
                 </div>
                 </form>
