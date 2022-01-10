@@ -352,12 +352,34 @@ option{
 }
 
 /* Tickets */
-
-.svg-tickets{
-    height: 258px;
-    width: 258px;
+.section-2 {
+    margin: 10px 0px;
+    padding: 0px 200px 20px 200px;
+    text-align: center;
 }
 
+.bullet-points li{
+    list-style-type: disc;
+    text-align: left;
+}
+
+.tickets-img {
+    height: 150px;
+    width: 150px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-color: #3e3a53;
+    color: #3e3a53;
+}
+
+.underline:hover{
+    text-decoration-color: rgba(23, 137, 165, 0.7);
+    
+}
 
 /* Typography */
 
