@@ -1,17 +1,13 @@
 /************ Fonts ************/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap');
 
 /************ Resets ************/
-*, html, body {
+*, html, body, li {
     margin:0;
     padding:0;
     box-sizing: border-box;
     
-}
-
-header {
-    margin: 5px 20px;
 }
 
 div {
@@ -88,12 +84,12 @@ a:hover {
     /*background-color: #3e3a53;*/
 }
 
-
 .center-text {
     text-align: center;
     font-weight: bold;
     font-size: 20px;
 }
+
 
 .card {
     border: 1px solid #ccc;
@@ -113,6 +109,7 @@ a:hover {
 .background-color1 {
     background-color: #DCD9EA;
 }
+
 
 .background-color2 {
     background-color: #133057;
@@ -136,11 +133,13 @@ a:hover {
 
 address {
     margin-bottom: 0;
+
 }
 
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
+
 
 .navbar-toggler {
     color: #133057;
@@ -381,6 +380,8 @@ option{
     
 }
 
+
+
 /* Typography */
 
 .crimson{
@@ -402,21 +403,52 @@ option{
 .font-size-22 {
     font-size: 22px;
 }
-/* Media Queries */
 
+
+/* Media Queries */
 header li {
-    display: none;
+    display: inline-block;
+    margin: 0 auto;
 }
 
+.comp-name{
+    display: inline-block;
+    font-size: 22px;
+}
 
+nav a {
+    display:inline-block;
+}
+
+.contact {
+    display: block;
+    border-radius: 0;
+}
 
 @media (min-width: 576px) { 
     header li {
         display: inline-block;
         margin: 0 auto;
     }
+    
     .comp-name{
+        display: inline-block;
         font-size: 22px;
+    }
+
+    nav a {
+        display:inline-block;
+    }
+
+    .contact {
+        display: block;
+        border-radius: 0;
+        background-color: #133057;
+        color: #a2a6aa;
+    }
+
+    .contact:hover{
+        background-color: #133057;
     }
 
     
@@ -439,12 +471,20 @@ header li {
     }
 
     .contact {
-        display: none;
+        display: block;
+        border-radius: 0;
+        background-color: #133057;
+        color: #a2a6aa;
+    }
+
+    .contact:hover{
+        background-color: #133057;
     }
 }
 
 @media (min-width: 992px) { 
-    
+
+
     header li {
         display: inline-block;
         margin: 0 auto;
@@ -461,11 +501,37 @@ header li {
     }
 
     .contact {
-        display: inline-block;
+        display: block;
+        border-radius: 0;
+        background-color: #133057;
+        color: #a2a6aa;
+    }
+
+    .contact:hover{
+        background-color: #133057;
     }
 }
 
-@media (min-width: 1200px) {  }
+@media (min-width: 1200px) { 
+
+    .contact {
+        padding: 9px 25px;
+        background-color: rgb(79, 183, 209);
+        color: #3e3a53;
+        font-weight: bolder;
+        border: none;
+        border-radius: 50px;
+        transition: all 0.3s ease 0s;
+    }
+
+    .contact:hover {
+        background-color: rgba(23, 137, 165, 0.7);
+        color: #DCD9EA;
+    
+    }
+
+    
+ }
 
 
 @media (min-width: 1400px) { }
