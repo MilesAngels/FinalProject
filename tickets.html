@@ -29,7 +29,7 @@
 
 
         <style>
-            /* Ommit the carousel when the screen is at 768px and format footer*/
+    
             @media screen and (max-width: 768px) {
                 .carousel {
                     display: none;
@@ -50,6 +50,13 @@
                 
 
                 
+            }
+
+            @media screen and (max-width: 992px){
+                .section-2 {
+                    padding: 0 40px 20px;
+                }
+
             }
 
             @media (min-width: 1200px){
@@ -168,7 +175,7 @@
                     <p class="background-color2 montserrat font-size-15 text-muted">Monthly digest of whats new and exciting from us.</p>
                     <div class="d-flex w-100 gap-2 background-color2">
                         <label for="newsletter1" class="visually-hidden">Email address</label>
-                        <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                        <input id="newsletter1" type="text" class="form-control" placeholder="Email">
                         <button class="btn btn-primary btn-height" type="button">Subscribe</button>
                     </div>
                     </form>
