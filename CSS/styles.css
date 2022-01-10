@@ -83,19 +83,13 @@ a:hover {
     display: inline-flex;
     /*background-color: #3e3a53;*/
 }
-<<<<<<< HEAD
 
-
-=======
-
-
->>>>>>> 2ac541e9ee35d47cbe48f2f39b92815af519fe6e
 .center-text {
     text-align: center;
     font-weight: bold;
     font-size: 20px;
-<<<<<<< HEAD
 }
+
 
 .card {
     border: 1px solid #ccc;
@@ -116,28 +110,7 @@ a:hover {
     background-color: #DCD9EA;
 }
 
-=======
-}
-.card {
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    background-color:#FFF;
-    width: 300px;
-    color: #1f1c2e;
-    margin: 20px;
-    padding: 20px;
-    filter: drop-shadow(3px 5px 7px #a2a6aa);
-}
 
-.navbar-brand{
-    margin-left: 2rem;
-}
-
-.background-color1 {
-    background-color: #DCD9EA;
-}
-
->>>>>>> 2ac541e9ee35d47cbe48f2f39b92815af519fe6e
 .background-color2 {
     background-color: #133057;
 }
@@ -160,21 +133,14 @@ a:hover {
 
 address {
     margin-bottom: 0;
-<<<<<<< HEAD
+
 }
 
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-=======
-}
 
-.navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-}
-
->>>>>>> 2ac541e9ee35d47cbe48f2f39b92815af519fe6e
 .navbar-toggler {
     color: #133057;
     border: none;
@@ -385,15 +351,36 @@ option{
 }
 
 /* Tickets */
-
-<<<<<<< HEAD
-.svg-tickets{
-    height: 258px;
-    width: 258px;
+.section-2 {
+    margin: 10px 0px;
+    padding: 0px 200px 20px 200px;
+    text-align: center;
 }
 
-=======
->>>>>>> 2ac541e9ee35d47cbe48f2f39b92815af519fe6e
+.bullet-points li{
+    list-style-type: disc;
+    text-align: left;
+}
+
+.tickets-img {
+    height: 150px;
+    width: 150px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-color: #3e3a53;
+    color: #3e3a53;
+}
+
+.underline:hover{
+    text-decoration-color: rgba(23, 137, 165, 0.7);
+    
+}
+
+
 
 /* Typography */
 
