@@ -357,9 +357,11 @@ option{
     text-align: center;
 }
 
+
 .bullet-points li{
     list-style-type: disc;
     text-align: left;
+    padding-bottom: 10px;
 }
 
 .tickets-img {
