@@ -33,10 +33,7 @@
         <style>
             /* Ommit the carousel when the screen is at 768px and format footer*/
             @media screen and (max-width: 768px) {
-                .carousel {
-                    display: none;
-                }
-
+                
                 .py-5{
                     text-align: left;
                 }
@@ -92,31 +89,31 @@
 
         <main>
             <!-- Contact Form -->
-            <div class="background-image">
+            <div class="section-3">
                 
-                <form class="contact-form background-color3 form-opacity">
-                    <h3 class="background-color3 text-dark crimson text-white">Contact us</h3>
+                <form class="contact-form background-color3">
+                    <h4 class="text-center text-dark crimson text-white fs-2">Contact Us</h4>
                     <div class="form-group row background-color3">
 
                         
                         <!-- Ask for user's first name and last name -->
                         
-                        <label for="fname" class="background-color3 text-white col-sm-2 col-form-label montserrat bold">Full Name*</label>
-                        <div class="background-color3 col-sm-10">
+                        <label for="fname" class="text-white col-form-label montserrat bold">Full Name*</label>
+                        <div class="col-sm-12">
                         <input type="text" id="fname" placeholder="First Name and Last Name">
                         </div>
                         
                         
 
                         <!-- Ask for user's email address -->
-                        <label for="email" class="background-color3 text-white col-sm-2 col-form-label montserrat bold">Email*</label>
-                        <div class="background-color3 col-sm-10">
+                        <label for="email" class="text-white col-form-label montserrat bold">Email*</label>
+                        <div class="col-sm-12">
                         <input type="email" id="email" class="form-control" placeholder="Email">
                         </div>
 
                         <!-- User's inquiry -->
-                        <label for="inquiry" class="background-color3 text-white col-sm-2 col-form-label montserrat bold">Question*</label>
-                        <div class="background-color3 col-sm-10">
+                        <label for="inquiry" class="text-white col-form-label montserrat bold">Question*</label>
+                        <div class="col-sm-12">
                         <select id="inquiry" name="inquiry">
                             <option value="Visit">Visit</option>
                             <option value="Ticket Discounts">Ticket Discounts</option>
@@ -127,8 +124,8 @@
                         </div>
 
                         <!-- User's Message -->
-                        <label for="message" class="background-color3 text-white col-sm-2 montserrat bold">Message*</label>
-                        <div class="background-color3 col-sm-10">
+                        <label for="message" class="text-white montserrat bold">Message*</label>
+                        <div class="col-sm-12">
                         <textarea id="message" rows="5" cols="10" placeholder="Please enter message here..."></textarea>
                         </div>
 
@@ -136,11 +133,15 @@
                         <button type="submit" class="btn submit montserrat bold">Submit</button>
                     </div>
                 </form>
+
+                <div>
+
+                </div>
             </div>
 
         </main>
 
-        <div class="container background-color2 text-white">
+        <div class="container mw-100 background-color2 text-white">
         <footer class="py-5 background-color2">
             <div class="row background-color2">
             <div class="col-sm-3 background-color2 vl">
