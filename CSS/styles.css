@@ -444,7 +444,6 @@ nav a {
     display:inline-block;
 }
 
-<<<<<<< HEAD
 .py-5{
     padding-left: 1rem;
     padding-right: 1rem;
@@ -453,11 +452,11 @@ nav a {
 
 .vl {
     border-right: none;
-=======
+}
+
 .contact {
     display: block;
     border-radius: 0;
->>>>>>> 0097fd2cdfbdf3e98e82374e49d0ce45bb0e6f11
 }
 
 @media (min-width: 576px) { 
@@ -471,7 +470,6 @@ nav a {
         font-size: 22px;
     }
 
-<<<<<<< HEAD
     .py-5{
         padding-left: 2rem;
         padding-right: 2rem;
@@ -483,24 +481,6 @@ nav a {
     }
 
 
-=======
-    nav a {
-        display:inline-block;
-    }
-
-    .contact {
-        display: block;
-        border-radius: 0;
-        background-color: #133057;
-        color: #a2a6aa;
-    }
-
-    .contact:hover{
-        background-color: #133057;
-    }
-
-    
->>>>>>> 0097fd2cdfbdf3e98e82374e49d0ce45bb0e6f11
  }
 
 @media (min-width: 768px) { 
