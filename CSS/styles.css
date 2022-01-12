@@ -425,6 +425,10 @@ option{
     font-size: 22px;
 }
 
+/* Events */
+.background-color4{
+    background-color: rgb(79, 183, 209);
+}
 
 /* Media Queries */
 header li {
