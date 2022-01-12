@@ -31,20 +31,41 @@
 
 
         <style>
-            /* Ommit the carousel when the screen is at 768px and format footer*/
-            @media screen and (max-width: 768px) {
-                .carousel {
-                    display: none;
+            .col-md-8 {
+                    margin-bottom: 30px;
+            }
+
+            @media (min-width: 576px){
+                .col-md-8 {
+                    margin: 30px;
                 }
 
+                
+            }
+
+            @media screen and (max-width: 768px) {
+                
                 .py-5{
                     text-align: left;
+                    
                 }
 
                 .col-sm-5, .col-sm-3{
                     padding-bottom: 10px;
                 }
+
+                .contact-form {
+                    width: 95%;
+                }
                 
+            }
+
+            @media (min-width: 992px) {
+
+                .contact-form {
+                    width: 50%;
+        
+                }
             }
 
             @media (min-width: 1200px){
@@ -92,31 +113,31 @@
 
         <main>
             <!-- Contact Form -->
-            <div class="background-image">
+            <div class="section-3 row">
                 
-                <form class="contact-form background-color3 form-opacity">
-                    <h3 class="background-color3 text-dark crimson text-white">Contact us</h3>
+                <form class="contact-form background-color3 col-md-8">
+                    <h4 class="text-center text-dark crimson bold text-white fs-2">Contact Us</h4>
                     <div class="form-group row background-color3">
 
                         
                         <!-- Ask for user's first name and last name -->
                         
-                        <label for="fname" class="background-color3 text-white col-sm-2 col-form-label montserrat bold">Full Name*</label>
-                        <div class="background-color3 col-sm-10">
+                        <label for="fname" class="text-white col-form-label montserrat bold">Full Name*</label>
+                        <div class="col-sm-12">
                         <input type="text" id="fname" placeholder="First Name and Last Name">
                         </div>
                         
                         
 
                         <!-- Ask for user's email address -->
-                        <label for="email" class="background-color3 text-white col-sm-2 col-form-label montserrat bold">Email*</label>
-                        <div class="background-color3 col-sm-10">
+                        <label for="email" class="text-white col-form-label montserrat bold">Email*</label>
+                        <div class="col-sm-12">
                         <input type="email" id="email" class="form-control" placeholder="Email">
                         </div>
 
                         <!-- User's inquiry -->
-                        <label for="inquiry" class="background-color3 text-white col-sm-2 col-form-label montserrat bold">Question*</label>
-                        <div class="background-color3 col-sm-10">
+                        <label for="inquiry" class="text-white col-form-label montserrat bold">Question*</label>
+                        <div class="col-sm-12">
                         <select id="inquiry" name="inquiry">
                             <option value="Visit">Visit</option>
                             <option value="Ticket Discounts">Ticket Discounts</option>
@@ -127,8 +148,8 @@
                         </div>
 
                         <!-- User's Message -->
-                        <label for="message" class="background-color3 text-white col-sm-2 montserrat bold">Message*</label>
-                        <div class="background-color3 col-sm-10">
+                        <label for="message" class="text-white montserrat bold">Message*</label>
+                        <div class="col-sm-12">
                         <textarea id="message" rows="5" cols="10" placeholder="Please enter message here..."></textarea>
                         </div>
 
@@ -136,11 +157,27 @@
                         <button type="submit" class="btn submit montserrat bold">Submit</button>
                     </div>
                 </form>
+
+                <div class="col-md-4 text-white">
+                    <div class="mb-5">
+                        <h2 class="background-color3 crimson bold"> Call Us</h2>
+                        <h6>For general questions call us at (000) 000 - 000</h6>
+                        <p>Monday through Friday (except for holidays)</p>
+                        <p>10 a.m. to 6 p.m.</p>
+                    </div>
+    
+                    <h2 class=" background-color3 crimson bold"> Visit Us</h2>
+                    <h6>Main Entrance</h6>
+                    <address>0000 Somewhere Nowhere, NA 99999</address>
+                    <p>(000) 000 - 000</p>
+                </div>
+
             </div>
+    
 
         </main>
 
-        <div class="container background-color2 text-white">
+        <div class="container mw-100 background-color2 text-white">
         <footer class="py-5 background-color2">
             <div class="row background-color2">
             <div class="col-sm-3 background-color2 vl">
@@ -167,11 +204,11 @@
 
             <div class="col-sm-5 background-color2">
                 <form class="background-color2">
-                <h5 class="background-color2 crimson font-size-22">Subscribe to our newsletter</h5>
+                <h5 class="background-color2 crimson font-size-22">Stay informed with Aquarium updates</h5>
                 <p class="background-color2 montserrat font-size-15 text-muted">Monthly digest of whats new and exciting from us.</p>
                 <div class="d-flex w-100 gap-2 background-color2">
                     <label for="newsletter1" class="visually-hidden">Email address</label>
-                    <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                    <input id="newsletter1" type="text" class="form-control" placeholder="Email">
                     <button class="btn btn-primary btn-height" type="button">Subscribe</button>
                 </div>
                 </form>
