@@ -267,9 +267,6 @@ h3 {
 }
 
 /***************************** Contact Page *******************************/
-.contact-wrapper, .contact-main{
-    background-color: #f2f2f2;
-}
 
 .section-3 {
     position: relative;
@@ -347,7 +344,7 @@ option{
 }
 
 .contact-form {
-    width: 60%;
+    width: 40%;
     border-radius: 10px;
     margin: 0 auto;
     padding: 30px;
@@ -545,7 +542,6 @@ nav a {
         background-color: #133057;
     }
 
-    
 
     .py-5{
         padding-left: 5rem;
