@@ -295,9 +295,6 @@ h3 {
 }
 
 /***************************** Contact Page *******************************/
-.contact-wrapper, .contact-main{
-    background-color: #f2f2f2;
-}
 
 .section-3 {
     position: relative;
@@ -369,7 +366,7 @@ option{
 }
 
 .contact-form {
-    width: 60%;
+    width: 40%;
     border-radius: 10px;
     margin: 0 auto;
     padding: 30px;
@@ -452,6 +449,10 @@ option{
     font-size: 22px;
 }
 
+/* Events */
+.background-color4{
+    background-color: rgb(79, 183, 209);
+}
 
 /* Media Queries */
 header li {
