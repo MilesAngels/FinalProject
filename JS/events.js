@@ -40,7 +40,7 @@ async function jsonList(item) {
        <h4 class="crimson bold fs-3"> ${item.event}</h4> 
        <p class="montserrat fs-6 text-muted">${item.date}<p>
        <p class="montserrat"> ${item.information}<p>
-       <p>${item.writing} <a href="${item.source}" class="bg-light text-primary">${item.website}</a></p>
+       <p>${item.writing} <a href="${item.source}" class="bg-transparent text-primary text-break" style="width: 6rem;">${item.website}</a></p>
        
     </li>`;
   // attach the newly created div element to the original div element, in this case to the class '.output'

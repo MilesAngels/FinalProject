@@ -438,7 +438,7 @@ article {
 }
 
 aside {
-    margin: 12px;
+    margin: 10px 10px 40px 10px;
     padding: 0;
     display:grid;
     grid-template-columns: 1fr 1fr;
@@ -452,7 +452,7 @@ aside {
 .card-events {
     border: 1px solid #ccc;
     border-radius: 10px;
-    background-color:#FFF;
+    background-color:#F8F9FA;
     width: 80%;
     margin: 0 auto;
     padding: 10px;
