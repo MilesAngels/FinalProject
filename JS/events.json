@@ -1,23 +1,43 @@
 [
     {
+        "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nationalgeographic.org%2Factivity%2Ftrack-leatherback-sea-turtles%2F&psig=AOvVaw0Dq2e8kjlEF5TZ8DQm5-xh&ust=1642127188440000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCOi1_tDWrfUCFQAAAAAdAAAAABAD",
+        "image": "./IMG/leatherback-turtles.jpg",
         "event" : "Sea Turlte Hatching",
-        "date" : "March 20, 2022",
-        "information" : "Sunny, our Leatherback sea turtle has laid eggs and her eggs will be hatched soon."
+        "date" : "March 20 - 30, 2022",
+        "information" : "Sunny, our Leatherback sea turtle has laid eggs and her eggs will be hatched soon.",
+        "writing" : "To learn more about leatherback sea turtles, please visit ",
+        "source": "https://www.americanoceans.org/species/leatherback-sea-turtle/",
+        "website": "americanoceans.org"
     },
     {
+        "url": "https://www.pexels.com/photo/blue-jellyfish-illustration-2166927/",
+        "image": "./IMG/blue-jellies.jpg",
         "event" : "Deep Sea Creatures Exhibit",
         "date" : "March - September 2022",
-        "information" : "Explore our new exhibit with creatures of the deep and find out more about them."
+        "information" : "Explore our new exhibit with creatures of the deep and find out more about them.",
+        "writing" : "To learn more about the deep sea creatures, please visit ",
+        "source": "https://www.nationalgeographic.org/media/deep-sea-dive/",
+        "website": "nationalgeographic.org"
     },
     {
+        "url": "https://www.technologynetworks.com/applied-sciences/news/microplastics-work-their-way-up-the-food-chain-to-beluga-whales-354920",
+        "image": "./IMG/beluga-whales.jpg",
         "event" : "Beluga Whales Release",
         "date" : "April 15, 2022",
-        "information" : "Carton and Nayla, who were brought in for net injuries have recovered and will finally be brought back to their pod."
+        "information" : "Carton and Nayla, who were brought in for net injuries have recovered and will finally be brought back to their pod.",
+        "writing" : "To learn more about beluga whales, please visit ",
+        "source": "https://www.nationalgeographic.com/animals/mammals/facts/beluga-whale",
+        "website": "nationalgeographic.org"
     },
     {
+        "url": "https://theoceancleanup.com/",
+        "image": "./IMG/ocean-clean-up.jpg",
         "event" : "Clean Our Oceans",
         "date" : "April 18, 2022",
-        "information" : "Join us in our mission to clean our seas and oceans."
+        "information" : "Join us in our mission to clean our seas and oceans.",
+        "writing" : "To learn more about the efforts of ocean clean up, please visit ",
+        "source": "https://theoceancleanup.com/oceans/",
+        "website": "theoceancleanup.com"
     }
 
 ]

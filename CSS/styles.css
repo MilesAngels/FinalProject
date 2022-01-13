@@ -135,6 +135,7 @@ address {
 
 }
 
+
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
@@ -248,7 +249,12 @@ h3 {
     width: fit-content;
     padding: 5px;
     margin: 0 auto;
+}
 
+
+.btn-primary:hover {
+    background-color: rgba(23, 137, 165, 0.7);
+    color: #DCD9EA; 
 }
 
 
@@ -264,12 +270,32 @@ h3 {
 .form-control {
     font-size: 15px;
     padding: 5px !important;
+
+}
+
+/***************************** About Page *******************************/
+.about-section {
+    padding: 30px;
+}
+
+.about-section h1 {
+    display: inline-block;
+    border-bottom: 8px solid #4FB7D1;
+}
+
+.about-section ul, .about-section li {
+    padding: 10px 30px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.about-section p {
+    padding: 5px 20px;
+    text-decoration: none;
+
 }
 
 /***************************** Contact Page *******************************/
-.contact-wrapper, .contact-main{
-    background-color: #f2f2f2;
-}
 
 .section-3 {
     position: relative;
@@ -301,7 +327,6 @@ h3 {
 }
 
 
-
 .contact-h3 {
     text-align: center;
     font-size: 20px;
@@ -311,11 +336,6 @@ h3 {
 
 
 /****** form *****/
-
-label[for=fname], label[for=lname],label[for=email],label[for=inquiry], label[for=message]{
-    font-size: 16px;
-    
-}
 
 input[type="text"]{
     width: 100%;
@@ -329,7 +349,6 @@ input[type="text"]{
     
 }
 
-
 input[type="email"], textarea, select{
     width: 100%;
     padding: 10px;
@@ -342,12 +361,13 @@ input[type="email"], textarea, select{
     
 }
 
+
 option{
     background-color: #FFF;
 }
 
 .contact-form {
-    width: 60%;
+    width: 40%;
     border-radius: 10px;
     margin: 0 auto;
     padding: 30px;
@@ -381,9 +401,11 @@ option{
     text-align: center;
 }
 
+
 .bullet-points li{
     list-style-type: disc;
     text-align: left;
+    padding-bottom: 10px;
 }
 
 .tickets-img {
@@ -428,6 +450,48 @@ option{
     font-size: 22px;
 }
 
+/* Events */
+.events-main h1 {
+    display: inline-block;
+    border-bottom: 8px solid #4FB7D1;
+    margin: 40px;
+}
+article {
+    margin: 0;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    margin-bottom: 20px;
+}
+
+aside {
+    margin: 10px 10px 40px 10px;
+    padding: 0;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+}
+
+.background-color4{
+    background-color: rgb(79, 183, 209);
+}
+
+.card-events {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color:#F8F9FA;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    color: #1f1c2e;
+    filter: drop-shadow(3px 5px 7px #a2a6aa);
+}
+.img-events {
+    width: 100%;
+    border-radius: 10px;
+    background-color: #FFF;
+}
 
 /* Media Queries */
 header li {
@@ -449,6 +513,7 @@ nav a {
     padding-right: 1rem;
     text-align: left;
 }
+
 
 .vl {
     border-right: none;
@@ -518,7 +583,6 @@ nav a {
 
 @media (min-width: 992px) { 
 
-
     header li {
         display: inline-block;
         margin: 0 auto;
@@ -545,12 +609,12 @@ nav a {
         background-color: #133057;
     }
 
-    
 
     .py-5{
         padding-left: 5rem;
         padding-right: 3rem;
     }
+
 
 }
 
@@ -566,6 +630,10 @@ nav a {
         transition: all 0.3s ease 0s;
     }
 
+
+}
+
+
     .contact:hover {
         background-color: rgba(23, 137, 165, 0.7);
         color: #DCD9EA;
@@ -573,6 +641,5 @@ nav a {
     }
 
     
- }
-
 @media (min-width: 1400px) { }
+
