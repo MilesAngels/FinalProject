@@ -1,6 +1,6 @@
 "use strict";
 
-const main = document.querySelector("main");
+const main = document.querySelector("aside");
 //console.log(output); // <div class="output"></div>
 
 //output.textContent = "New Content";
@@ -33,11 +33,18 @@ async function jsonList(item) {
   const contain = document.createElement("article");
   // get the required details from the local.json file to the div element using innerHTML
   contain.innerHTML = `
-       <h4> ${item.event}</h4> 
-       <p>${item.date}<p>
-       <p> ${item.information}<p>`;
+    <li class="bg-light text-dark">
+    <a href="${item.url}">
+      <img src="${item.image}" class="img-events">
+    </a>
+       <h4 class="crimson bold fs-3"> ${item.event}</h4> 
+       <p class="montserrat fs-6 text-muted">${item.date}<p>
+       <p class="montserrat"> ${item.information}<p>
+       <p>${item.writing} <a href="${item.source}" class="bg-light text-primary">${item.website}</a></p>
+       
+    </li>`;
   // attach the newly created div element to the original div element, in this case to the class '.output'
   main.append(contain);
   // Add styling to the displayed content
-  contain.classList.add("card");
+  contain.classList.add("card-events");
 }
