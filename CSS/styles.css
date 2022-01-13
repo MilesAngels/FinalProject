@@ -427,7 +427,11 @@ option{
 }
 
 /* Events */
-
+.events-main h1 {
+    display: inline-block;
+    border-bottom: 8px solid #4FB7D1;
+    margin: 40px;
+}
 article {
     margin: 0;
     background-color: #fff;
